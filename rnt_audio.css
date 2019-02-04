@@ -14,3 +14,18 @@
 */
 
 /* Audio Styles */
+/* This audio element selector is used to give the audio
+ box space around its top and bottom areas  */
+audio {
+   display: block;
+   box-shadow: 8px 15px rgb(56, 55, 55);
+   margin: 20px auto;
+   width: 80%;
+   border-radius: 32px; 
+}
+
+/* This is used in order to changes the color of the audio 
+box itself to a light blue */
+audio::-webkit-media-controls-panel {
+   background: rgb(128, 128, 255);
+}
